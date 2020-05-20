@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/first"
+  ],
+  "scripts": {
+    "arePretty": "prettier -c 'packages/**/*.tsx' 'packages/**/*.ts' 'packages/**/*.js'",
+    "allPretty": "prettier --write 'packages/**/*.tsx' 'packages/**/*.ts' 'packages/**/*.js'"
+  },
+  "version": "0.0.0",
+  "files": [
+    "tests"
+  ]
+}
