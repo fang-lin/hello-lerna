@@ -1,0 +1,14 @@
+{
+  "name": "first",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir dist && cp src/index.js dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
