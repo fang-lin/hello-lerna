@@ -6,6 +6,9 @@
   "scripts": {
     "build": "mkdir dist && cp src/index.js dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
