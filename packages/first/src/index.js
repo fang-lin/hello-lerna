@@ -1,3 +1,3 @@
 import { isEmpty } from 'lodash';
 
-console.log(isEmpty);
+console.log(isEmpty, 'Hello!');
